@@ -1,8 +1,10 @@
-module github.com/mpolden/echoip
+module github.com/bplein/echoip
 
-go 1.13
+go 1.22
+
+require github.com/oschwald/geoip2-golang v1.11.0
 
 require (
-	github.com/oschwald/geoip2-golang v1.5.0
-	golang.org/x/sys v0.0.0-20210223212115-eede4237b368 // indirect
+	github.com/oschwald/maxminddb-golang v1.13.0 // indirect
+	golang.org/x/sys v0.22.0 // indirect
 )
